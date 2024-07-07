@@ -21,11 +21,6 @@
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=devxMani&limit=5&theme=radical&combine_all_yearly_contributions=true)
 
-[![devxMani's GitHub | Stats](https://stats.quira.sh/devxMani/github?theme=dark)](https://quira.sh?utm_source=widgets&utm_campaign=devxMani)
-
-### 😂 Random Dev Meme
-<img src='https://memer-new.vercel.app/' style="height: 400px;"/>
-
 ---
 [![](https://visitcount.itsvg.in/api?id=devxMani&icon=5&color=0)](https://visitcount.itsvg.in)
 
