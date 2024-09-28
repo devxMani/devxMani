@@ -14,7 +14,7 @@ Striving.....
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=devxMani&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
-[![Holopin](https://holopin.onrender.com/vinitshahdeo)](https://holopin.io/@vinitshahdeo)
+[![Holopin](https://holopin.onrender.com/devxMani)](https://holopin.io/@devxMani)
 <a href='https://holopin.io/@devxMani'>
     <img src='https://holopin.onrender.com/devxMani'/>
 </a>
