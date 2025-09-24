@@ -47,7 +47,7 @@ I break things, learn fast, and make shit happen deep into code and cs anything 
 ## Experience - 
 - **Google** - **As a Prompt Engineer** - Helped in building their AI models of image generation, helped in generating prompts for different varieties and regions in the span of 4 months, and led a team of 8 team members. You can find out about this experience in my resume.
   
-- **Gssoc ext 24** - **As a Developer** - Contributed in several projects threw my experience in Full-stack development and in Machine learning, merged over 100+ PRs in the span of 2 months, contributed to different projects building AI models and UI development.
+- **Gssoc ext 24** - **As a Developer** - Contributed in several projects through my experience in Full-stack development and in Machine learning, merged over 100+ PRs in the span of 2 months, contributed to different projects building AI models and UI development.
 
 ## Projects -
 - [Peeklink](https://github.com/devxMani/Peek-link) - Peeklink is a simple web tool that lets you preview how your website or project link will look across multiple social media platforms.(https://peek-link.vercel.app/)
