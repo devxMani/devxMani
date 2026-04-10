@@ -61,8 +61,5 @@ I break things, learn fast, and make shit happen deep into code and cs anything 
 - [ASCII motion](https://github.com/devxMani/ASCII-Motion) - An Add-On for the Terminal that generates video that converts video files into colored ASCII art and plays them in real-time.
 - [2025 calendar](https://github.com/devxMani/2025-Calender) - 2025 Calendar is a web application designed to create and manage calendar events for the year 2025.<br>
 
-  ![](https://github-readme-stats.vercel.app/api?username=devxMani&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
-  ![](https://github-readme-streak-stats.herokuapp.com/?user=devxMani&theme=radical&hide_border=false)<br/>
-
   If you like my projects, Give them ⭐ and Share them!
   <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
