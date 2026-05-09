@@ -2,7 +2,7 @@
 <img src="catjam-cat.gif" alt=""/>
 </p>
 
-# Hi there, I'm Mani 
+_Hi there I'm Mani_
 ```lua
 -- ~/whoami
 
