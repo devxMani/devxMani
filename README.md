@@ -7,7 +7,7 @@
 -- ~/whoami
 
 local mani = {
-  role = "Dev,artist",
+  solving = "Intelligence",
   location = "milkyway",
   languages = { "python", "ts", "rust", "c++" },
   site = "https://devxmani.tech",
