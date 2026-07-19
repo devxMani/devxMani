@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460" font-family="ConsolasFallback,Consolas,monospace" font-size="16px">
+<style>
+@font-face {
+src: local('Consolas'), local('Consolas Bold');
+font-family: 'ConsolasFallback';
+font-display: swap;
+-webkit-size-adjust: 109%;
+size-adjust: 109%;
+}
+text, tspan { white-space: pre; }
+</style>
+<rect width="1000" height="460" fill="#0d1117" rx="15"/>
+<text x="15" y="50" xml:space="preserve"><tspan fill="#77bdfb">                   -`                    </tspan><tspan fill="#ecf2f8">viv@vynride</tspan></text>
+<text x="15" y="70" xml:space="preserve"><tspan fill="#77bdfb">                  .o+`                   </tspan><tspan fill="#89929b">-----------</tspan></text>
+<text x="15" y="90" xml:space="preserve"><tspan fill="#77bdfb">                 `ooo/                   </tspan><tspan fill="#fa7970" font-weight="600">[system]</tspan></text>
+<text x="15" y="110" xml:space="preserve"><tspan fill="#77bdfb">                `+oooo:                  </tspan><tspan fill="#faa356">Name</tspan><tspan fill="#89929b">: </tspan><tspan fill="#89929b">..................................... </tspan><tspan fill="#ecf2f8">Vivian Demello</tspan></text>
+<text x="15" y="130" xml:space="preserve"><tspan fill="#77bdfb">               `+oooooo:                 </tspan><tspan fill="#faa356">Age</tspan><tspan fill="#89929b">: </tspan><tspan fill="#89929b">............................................ </tspan><tspan fill="#ecf2f8">20 years</tspan></text>
+<text x="15" y="150" xml:space="preserve"><tspan fill="#77bdfb">               -+oooooo+:                </tspan><tspan fill="#faa356">Role</tspan><tspan fill="#89929b">: </tspan><tspan fill="#89929b">........................................ </tspan><tspan fill="#ecf2f8">AI Engineer</tspan></text>
+<text x="15" y="170" xml:space="preserve"><tspan fill="#77bdfb">             `/:-:++oooo+:               </tspan><tspan fill="#faa356">OS</tspan><tspan fill="#89929b">: </tspan><tspan fill="#89929b">.................................... </tspan><tspan fill="#ecf2f8">Arch Linux x86_64</tspan></text>
+<text x="15" y="190" xml:space="preserve"><tspan fill="#77bdfb">            `/++++/+++++++:              </tspan></text>
+<text x="15" y="210" xml:space="preserve"><tspan fill="#77bdfb">           `/++++++++++++++:             </tspan><tspan fill="#77bdfb" font-weight="600">[tech stack]</tspan></text>
+<text x="15" y="230" xml:space="preserve"><tspan fill="#77bdfb">          `/+++ooooooooooooo/`           </tspan><tspan fill="#faa356">Languages</tspan><tspan fill="#89929b">: </tspan><tspan fill="#89929b">....................... </tspan><tspan fill="#ecf2f8">Python, TypeScript, C++</tspan></text>
+<text x="15" y="250" xml:space="preserve"><tspan fill="#77bdfb">         ./ooosssso++osssssso+`          </tspan><tspan fill="#faa356">Frameworks</tspan><tspan fill="#89929b">: </tspan><tspan fill="#89929b">............................. </tspan><tspan fill="#ecf2f8">Next.js, FastAPI</tspan></text>
+<text x="15" y="270" xml:space="preserve"><tspan fill="#77bdfb">        .oossssso-````/ossssss+`         </tspan><tspan fill="#faa356">AI</tspan><tspan fill="#89929b">: </tspan><tspan fill="#89929b">.................. </tspan><tspan fill="#ecf2f8">LLM systems, RAG, evals, automation</tspan></text>
+<text x="15" y="290" xml:space="preserve"><tspan fill="#77bdfb">       -osssssso.      :ssssssso.        </tspan><tspan fill="#faa356">DevOps</tspan><tspan fill="#89929b">: </tspan><tspan fill="#89929b">............... </tspan><tspan fill="#ecf2f8">Azure, Docker, CI/CD, Nginx, Redis</tspan></text>
+<text x="15" y="310" xml:space="preserve"><tspan fill="#77bdfb">      :osssssss/        osssso+++.       </tspan></text>
+<text x="15" y="330" xml:space="preserve"><tspan fill="#77bdfb">     /ossssssss/        +ssssooo/-       </tspan><tspan fill="#7ce38b" font-weight="600">[socials]</tspan></text>
+<text x="15" y="350" xml:space="preserve"><tspan fill="#77bdfb">   `/ossssso+/:-        -:/+osssso+-     </tspan><tspan fill="#faa356">Email</tspan><tspan fill="#89929b">: </tspan><tspan fill="#89929b">............................ </tspan><tspan fill="#ecf2f8">vynride [at] gmail.com</tspan></text>
+<text x="15" y="370" xml:space="preserve"><tspan fill="#77bdfb">  `+sso+:-`                 `.-/+oso:    </tspan><tspan fill="#faa356">X/Twitter</tspan><tspan fill="#89929b">: </tspan><tspan fill="#89929b">................................. </tspan><tspan fill="#ecf2f8">x.com/vynride</tspan></text>
+<text x="15" y="390" xml:space="preserve"><tspan fill="#77bdfb"> `++:.                           `-/+/   </tspan><tspan fill="#faa356">GitHub</tspan><tspan fill="#89929b">: </tspan><tspan fill="#89929b">............................... </tspan><tspan fill="#ecf2f8">github.com/vynride</tspan></text>
+<text x="15" y="410" xml:space="preserve"><tspan fill="#77bdfb"> .`                                 `/   </tspan><tspan fill="#faa356">LinkedIn</tspan><tspan fill="#89929b">: </tspan><tspan fill="#89929b">.................. </tspan><tspan fill="#ecf2f8">linkedin.com/in/viviandemello</tspan></text>
+</svg>
