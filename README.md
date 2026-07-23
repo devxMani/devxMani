@@ -2,7 +2,8 @@
 <img src="catjam-cat.gif" alt=""/>
 </p>
 
-# _Hi there I'm Mani_
+
+# _Hi there I'm Mani_  < Imagine Infinity.
 ```lua
 -- ~/whoami
 
