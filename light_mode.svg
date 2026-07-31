@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650">
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Consolas&amp;family=Courier+Prime&amp;display=swap");
+    text { font-family: "Consolas", "Courier Prime", "Courier New", monospace; font-size: 16px; }
+    .art { fill: #0366d6; font-size: 16px; }
+    .right { fill: #24292f; font-size: 16px; }
+    .key { fill: #0366d6; font-size: 16px; font-weight: bold; }
+    .value { fill: #24292f; font-size: 16px; }
+    .add { fill: #1a7f37; font-size: 16px; }
+    .dele { fill: #cf222e; font-size: 16px; }
+  </style>
+  <rect width="1000" height="650" fill="#ffffff" rx="12"/>
+  <text x="30" y="30" class="art">                  -`</text>
+  <text x="30" y="50" class="art">                 .o+`</text>
+  <text x="30" y="70" class="art">                `ooo/</text>
+  <text x="30" y="90" class="art">               `+oooo:</text>
+  <text x="30" y="110" class="art">              `+oooooo:</text>
+  <text x="30" y="130" class="art">              -+oooooo+:</text>
+  <text x="30" y="150" class="art">            `/:-:++oooo+:</text>
+  <text x="30" y="170" class="art">           `/++++/+++++++:</text>
+  <text x="30" y="190" class="art">          `/++++++++++++++:</text>
+  <text x="30" y="210" class="art">         `/+++ooooooooooooo/`</text>
+  <text x="30" y="230" class="art">        ./ooosssso++osssssso+`</text>
+  <text x="30" y="250" class="art">       .oossssso-````/ossssss+`</text>
+  <text x="30" y="270" class="art">      -osssssso.      :ssssssso.</text>
+  <text x="30" y="290" class="art">     :osssssss/        osssso+++.</text>
+  <text x="30" y="310" class="art">    /ossssssss/        +ssssooo/-</text>
+  <text x="30" y="330" class="art">  `/ossssso+/:-        -:/+osssso+-</text>
+  <text x="30" y="350" class="art"> `+sso+:-`                 `.-/+oso:</text>
+  <text x="30" y="370" class="art">`++:.                           `-/+/</text>
+  <text x="30" y="390" class="art">`.                                 `/</text>
+  <text x="390" y="30" class="right">devxMani ———————————————————————————————————————————————————</text>
+  <text x="390" y="50" class="right">. <tspan class="key">Role</tspan>: ................................. <tspan class="value">Software Developer</tspan></text>
+  <text x="390" y="70" class="right">. <tspan class="key">Host</tspan>: ........................................... <tspan class="value">devxMani</tspan></text>
+  <text x="390" y="90" class="right">. <tspan class="key">Location</tspan>: ....................................... <tspan class="value">Milkyway</tspan></text>
+  <text x="390" y="110" class="right">. <tspan class="key">Uptime</tspan>:<tspan id="age_data_dots"> ........................ </tspan><tspan id="age_data">0 years, 0 months, 0 days</tspan></text>
+  <text x="390" y="130" class="right">. <tspan class="key">Focus</tspan>: ...................................... <tspan class="value">Intelligence</tspan></text>
+  <text x="390" y="150" class="right">. </text>
+  <text x="390" y="170" class="right">. <tspan class="key">Languages</tspan>: ................. <tspan class="value">Python, TypeScript, Rust, C++</tspan></text>
+  <text x="390" y="190" class="right">. <tspan class="key">Stack</tspan>: ................. <tspan class="value">React, Node.js, FastAPI, Tailwind</tspan></text>
+  <text x="390" y="210" class="right">. <tspan class="key">Site</tspan>: ...................................... <tspan class="value">devxmani.tech</tspan></text>
+  <text x="390" y="230" class="right">. </text>
+  <text x="390" y="250" class="right">- Projects —————————————————————————————————————————————————</text>
+  <text x="390" y="270" class="right">. <tspan class="key">Apple-iPhone-15-site</tspan>: ........ <tspan class="value">iPhone 15 Pro clone with 3D</tspan></text>
+  <text x="390" y="290" class="right">. <tspan class="key">StoryForge-AI</tspan>: .............. <tspan class="value">AI choose-your-own-adventure</tspan></text>
+  <text x="390" y="310" class="right">. <tspan class="key">AlgoGenesis</tspan>: .............. <tspan class="value">Algorithm implementations in C</tspan></text>
+  <text x="390" y="330" class="right">. <tspan class="key">Peek-link</tspan>: ................. <tspan class="value">URL preview and metadata tool</tspan></text>
+  <text x="390" y="350" class="right">. </text>
+  <text x="390" y="370" class="right">- Contact ——————————————————————————————————————————————————</text>
+  <text x="390" y="390" class="right">. <tspan class="key">Email</tspan>: ............................... <tspan class="value">hello@devxmani.tech</tspan></text>
+  <text x="390" y="410" class="right">. <tspan class="key">X</tspan>: ............................................. <tspan class="value">@devxMani</tspan></text>
+  <text x="390" y="430" class="right">. <tspan class="key">GitHub</tspan>: ......................................... <tspan class="value">devxMani</tspan></text>
+  <text x="390" y="450" class="right">. <tspan class="key">Portfolio</tspan>: ................................. <tspan class="value">devxmani.tech</tspan></text>
+  <text x="390" y="470" class="right">. </text>
+  <text x="390" y="490" class="right">- GitHub Stats —————————————————————————————————————————————</text>
+  <text x="390" y="510" class="right">. Repos:<tspan id="repo_data_dots"> .... </tspan><tspan id="repo_data">00</tspan> {Contributed:<tspan id="contrib_data_dots">   </tspan><tspan id="contrib_data">00</tspan>} | Stars:<tspan id="star_data_dots"> .......... </tspan><tspan id="star_data">000</tspan></text>
+  <text x="390" y="530" class="right">. Commits:<tspan id="commit_data_dots"> .................. </tspan><tspan id="commit_data">0,000</tspan> | Followers:<tspan id="follower_data_dots"> ....... </tspan><tspan id="follower_data">000</tspan></text>
+  <text x="390" y="550" class="right">. Total Lines of Code:<tspan id="loc_data_dots">  </tspan><tspan id="loc_data">000,000</tspan> ( <tspan id="loc_add_dots">  </tspan><tspan class="add" id="loc_add">000,000</tspan>++, <tspan id="loc_del_dots">   </tspan><tspan class="dele" id="loc_del">00,000</tspan>-- )</text>
+</svg>
