@@ -9,37 +9,35 @@ import re
 from xml.sax.saxutils import escape
 
 WIDTH_CH = 60
-SVG_WIDTH = 1120
-SVG_HEIGHT = 650
-ART_X = 65       # was 30, shifted right to prevent left-edge clipping
-RIGHT_X = 440    # was 390, shifted right to match
+SVG_WIDTH = 1300
+SVG_HEIGHT = 760
+ART_X = 120
+RIGHT_X = 560
+ART_Y0 = 70
+ART_LINE = 28
+ART_FONTSIZE = 24
+TEXT_FONTSIZE = 16
 
 ARCH_ART = [
-    "                  -`",
-    "                 .o+`",
-    "                `ooo/",
-    "               `+oooo:",
-    "              `+oooooo:",
+    "                  -'",
+    "                 .o+'",
+    "                'ooo/",
+    "               '+oooo:",
+    "              '+oooooo:",
     "              -+oooooo+:",
-    "            `/:-:++oooo+:",
-    "           `/++++/+++++++:",
-    "          `/++++++++++++++:",
-    "         `/+++ooooooooooooo/`",
-    "        ./ooosssso++osssssso+`",
-    "       .oossssso-````/ossssss+`",
+    "            '/:-:++oooo+:",
+    "           '/++++/+++++++:",
+    "          '/++++++++++++++:",
+    "         '/+++ooooooooooooo/'",
+    "        ./ooosssso++osssssso+'",
+    "       .oossssso-''''/ossssss+'",
     "      -osssssso.      :ssssssso.",
     "     :osssssss/        osssso+++.",
     "    /ossssssss/        +ssssooo/-",
-    "  `/ossssso+/:-        -:/+osssso+-",
-    " `+sso+:-`                 `.-/+oso:",
-    "`++:.                           `-/+/",
-    "`.                                 `/",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
+    "  '/ossssso+/:-        -:/+osssso+-",
+    " '+sso+:-'                 '.-/+oso:",
+    "'++:.                           '-/+/",
+    "'.                                 '/",
 ]
 
 LEN = dict(age=49, repo=6, star=13, commit=23, follower=10,
@@ -93,28 +91,28 @@ def header(title):
 
 
 def repos_line():
-    return ('. Repos:'
+    return (". Repos:"
             '<tspan id="repo_data_dots">%s</tspan><tspan id="repo_data">%s</tspan>'
-            ' {Contributed:<tspan id="contrib_data_dots">%s</tspan><tspan id="contrib_data">%s</tspan>'
-            '} | Stars:<tspan id="star_data_dots">%s</tspan><tspan id="star_data">%s</tspan>'
+            " {Contributed:<tspan id=\"contrib_data_dots\">%s</tspan><tspan id=\"contrib_data\">%s</tspan>"
+            "} | Stars:<tspan id=\"star_data_dots\">%s</tspan><tspan id=\"star_data\">%s</tspan>"
             ) % (jf_dots(LEN["repo"], PH["repo"]), PH["repo"],
                  pad_fill(LEN["contrib"], PH["contrib"]), PH["contrib"],
                  jf_dots(LEN["star"], PH["star"]), PH["star"])
 
 
 def commits_line():
-    return ('. Commits:'
+    return (". Commits:"
             '<tspan id="commit_data_dots">%s</tspan><tspan id="commit_data">%s</tspan>'
-            ' | Followers:<tspan id="follower_data_dots">%s</tspan><tspan id="follower_data">%s</tspan>'
+            " | Followers:<tspan id=\"follower_data_dots\">%s</tspan><tspan id=\"follower_data\">%s</tspan>"
             ) % (jf_dots(LEN["commit"], PH["commit"]), PH["commit"],
                  jf_dots(LEN["follower"], PH["follower"]), PH["follower"])
 
 
 def loc_line():
-    return ('. Total Lines of Code:'
+    return (". Total Lines of Code:"
             '<tspan id="loc_data_dots">%s</tspan><tspan id="loc_data">%s</tspan>'
-            ' ( <tspan id="loc_add_dots">%s</tspan><tspan class="add" id="loc_add">%s</tspan>++, '
-            '<tspan id="loc_del_dots">%s</tspan><tspan class="dele" id="loc_del">%s</tspan>-- )'
+            " ( <tspan id=\"loc_add_dots\">%s</tspan><tspan class=\"add\" id=\"loc_add\">%s</tspan>++, "
+            "<tspan id=\"loc_del_dots\">%s</tspan><tspan class=\"dele\" id=\"loc_del\">%s</tspan>-- )"
             ) % (pad_fill(LEN["loc"], PH["loc"]), PH["loc"],
                  pad_fill(LEN["loc_add"], PH["loc_add"]), PH["loc_add"],
                  pad_fill(LEN["loc_del"], PH["loc_del"]), PH["loc_del"])
@@ -162,7 +160,6 @@ def right_lines():
     return lines
 
 
-# ved1beta's EXACT color scheme
 THEMES = {
     "dark_mode.svg": dict(
         bg="#121212", fg="#e8e8e3", key="#a3e635", value="#e8e8e3",
@@ -181,25 +178,28 @@ def place(line, y):
 
 def build(filename, theme, art):
     svg = '<?xml version="1.0" encoding="UTF-8"?>\n'
-    svg += '<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" viewBox="0 0 %d %d" style="overflow: visible;">\n' % (SVG_WIDTH, SVG_HEIGHT, SVG_WIDTH, SVG_HEIGHT)
+    svg += '<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" viewBox="0 0 %d %d">\n' % (SVG_WIDTH, SVG_HEIGHT, SVG_WIDTH, SVG_HEIGHT)
     svg += '  <style>\n'
     svg += '    @import url("https://fonts.googleapis.com/css2?family=Consolas&amp;family=Courier+Prime&amp;display=swap");\n'
-    svg += '    text { font-family: "Consolas", "Courier Prime", "Courier New", monospace; font-size: 16px; }\n'
-    svg += '    .art { fill: %s; font-size: 16px; }\n' % theme["ascii"]
-    svg += '    .right { fill: %s; font-size: 16px; }\n' % theme["fg"]
-    svg += '    .key { fill: %s; font-size: 16px; font-weight: bold; }\n' % theme["key"]
-    svg += '    .value { fill: %s; font-size: 16px; }\n' % theme["value"]
-    svg += '    .add { fill: %s; font-size: 16px; }\n' % theme["add"]
-    svg += '    .dele { fill: %s; font-size: 16px; }\n' % theme["dele"]
+    svg += '    text { font-family: "Consolas", "Courier Prime", "Courier New", monospace; font-size: %dpx; }\n' % TEXT_FONTSIZE
+    svg += '    .art { fill: %s; font-size: %dpx; }\n' % (theme["ascii"], ART_FONTSIZE)
+    svg += '    .right { fill: %s; font-size: %dpx; }\n' % (theme["fg"], TEXT_FONTSIZE)
+    svg += '    .key { fill: %s; font-size: %dpx; font-weight: bold; }\n' % (theme["key"], TEXT_FONTSIZE)
+    svg += '    .value { fill: %s; font-size: %dpx; }\n' % (theme["value"], TEXT_FONTSIZE)
+    svg += '    .add { fill: %s; font-size: %dpx; }\n' % (theme["add"], TEXT_FONTSIZE)
+    svg += '    .dele { fill: %s; font-size: %dpx; }\n' % (theme["dele"], TEXT_FONTSIZE)
     svg += '  </style>\n'
     svg += '  <rect width="%d" height="%d" fill="%s" rx="12"/>\n' % (SVG_WIDTH, SVG_HEIGHT, theme["bg"])
 
     for i, line in enumerate(art):
         if line.strip():
-            svg += '  <text x="%d" y="%d" class="art">%s</text>\n' % (ART_X, 30 + 20 * i, escape(line))
+            svg += '  <text x="%d" y="%d" class="art">%s</text>\n' % (ART_X, ART_Y0 + ART_LINE * i, escape(line))
+
+    tag_y = ART_Y0 + ART_LINE * len(art) + 40
+    svg += '  <text x="%d" y="%d" class="art" font-size="%dpx">Arch btw</text>\n' % (ART_X, tag_y, ART_FONTSIZE)
 
     for i, line in enumerate(right_lines()):
-        svg += '  %s\n' % place(line, 30 + 20 * i)
+        svg += '  %s\n' % place(line, ART_Y0 + ART_LINE * i)
 
     svg += "</svg>\n"
     open(filename, "w").write(svg)
