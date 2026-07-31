@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1300" height="760" viewBox="0 0 1300 760">
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Consolas&amp;family=Courier+Prime&amp;display=swap");
@@ -35,7 +35,7 @@
   <text x="560" y="98" class="right">. <tspan class="key">Role</tspan>: ................................. <tspan class="value">Software Developer</tspan></text>
   <text x="560" y="126" class="right">. <tspan class="key">Host</tspan>: ........................................... <tspan class="value">devxMani</tspan></text>
   <text x="560" y="154" class="right">. <tspan class="key">Location</tspan>: ....................................... <tspan class="value">Milkyway</tspan></text>
-  <text x="560" y="182" class="right">. <tspan class="key">Uptime</tspan>:<tspan id="age_data_dots"> ........................ </tspan><tspan id="age_data">0 years, 0 months, 0 days</tspan></text>
+  <text x="560" y="182" class="right">. <tspan class="key">Uptime</tspan>:<tspan id="age_data_dots"> ....................... </tspan><tspan id="age_data">3 years, 6 months, 20 days</tspan></text>
   <text x="560" y="210" class="right">. <tspan class="key">Focus</tspan>: ...................................... <tspan class="value">Intelligence</tspan></text>
   <text x="560" y="238" class="right">. </text>
   <text x="560" y="266" class="right">. <tspan class="key">Languages</tspan>: ................. <tspan class="value">Python, TypeScript, Rust, C++</tspan></text>
@@ -55,7 +55,7 @@
   <text x="560" y="658" class="right">. <tspan class="key">Portfolio</tspan>: ................................. <tspan class="value">devxmani.tech</tspan></text>
   <text x="560" y="686" class="right">. </text>
   <text x="560" y="714" class="right">- GitHub Stats —————————————————————————————————————————————</text>
-  <text x="560" y="742" class="right">. Repos:<tspan id="repo_data_dots"> .... </tspan><tspan id="repo_data">00</tspan> {Contributed:<tspan id="contrib_data_dots">   </tspan><tspan id="contrib_data">00</tspan>} | Stars:<tspan id="star_data_dots"> .......... </tspan><tspan id="star_data">000</tspan></text>
-  <text x="560" y="770" class="right">. Commits:<tspan id="commit_data_dots"> .................. </tspan><tspan id="commit_data">0,000</tspan> | Followers:<tspan id="follower_data_dots"> ....... </tspan><tspan id="follower_data">000</tspan></text>
-  <text x="560" y="798" class="right">. Total Lines of Code:<tspan id="loc_data_dots">  </tspan><tspan id="loc_data">000,000</tspan> ( <tspan id="loc_add_dots">  </tspan><tspan class="add" id="loc_add">000,000</tspan>++, <tspan id="loc_del_dots">   </tspan><tspan class="dele" id="loc_del">00,000</tspan>-- )</text>
+  <text x="560" y="742" class="right">. Repos:<tspan id="repo_data_dots"> .... </tspan><tspan id="repo_data">95</tspan> {Contributed:<tspan id="contrib_data_dots">   </tspan><tspan id="contrib_data">95</tspan>} | Stars:<tspan id="star_data_dots"> ........... </tspan><tspan id="star_data">13</tspan></text>
+  <text x="560" y="770" class="right">. Commits:<tspan id="commit_data_dots"> .................. </tspan><tspan id="commit_data">3,032</tspan> | Followers:<tspan id="follower_data_dots"> ........ </tspan><tspan id="follower_data">17</tspan></text>
+  <text x="560" y="798" class="right">. Total Lines of Code:<tspan id="loc_data_dots"></tspan><tspan id="loc_data">1,697,955</tspan> ( <tspan id="loc_add_dots"></tspan><tspan class="add" id="loc_add">1,791,694</tspan>++, <tspan id="loc_del_dots">   </tspan><tspan class="dele" id="loc_del">93,739</tspan>-- )</text>
 </svg>
