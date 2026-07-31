@@ -2,8 +2,8 @@ name: Update Profile Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # Daily at midnight UTC
-  workflow_dispatch:       # Manual trigger
+    - cron: '0 0 * * *'
+  workflow_dispatch:
   push:
     branches: [main]
 
@@ -22,13 +22,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Build SVG templates (if missing)
-        run: |
-          if [ ! -f dark_mode.svg ]; then
-            python build_svg.py
-          fi
+        run: pip install requests python-dateutil lxml
 
       - name: Update live stats
         env:
