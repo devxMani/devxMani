@@ -9,8 +9,10 @@ import re
 from xml.sax.saxutils import escape
 
 WIDTH_CH = 60
-SVG_WIDTH = 1000
+SVG_WIDTH = 1120
 SVG_HEIGHT = 650
+ART_X = 65       # was 30, shifted right to prevent left-edge clipping
+RIGHT_X = 440    # was 390, shifted right to match
 
 ARCH_ART = [
     "                  -`",
@@ -174,12 +176,12 @@ THEMES = {
 
 
 def place(line, y):
-    return '<text x="390" y="%d" class="right">%s</text>' % (y, line)
+    return '<text x="%d" y="%d" class="right">%s</text>' % (RIGHT_X, y, line)
 
 
 def build(filename, theme, art):
     svg = '<?xml version="1.0" encoding="UTF-8"?>\n'
-    svg += '<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" viewBox="0 0 %d %d">\n' % (SVG_WIDTH, SVG_HEIGHT, SVG_WIDTH, SVG_HEIGHT)
+    svg += '<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" viewBox="0 0 %d %d" style="overflow: visible;">\n' % (SVG_WIDTH, SVG_HEIGHT, SVG_WIDTH, SVG_HEIGHT)
     svg += '  <style>\n'
     svg += '    @import url("https://fonts.googleapis.com/css2?family=Consolas&amp;family=Courier+Prime&amp;display=swap");\n'
     svg += '    text { font-family: "Consolas", "Courier Prime", "Courier New", monospace; font-size: 16px; }\n'
@@ -194,7 +196,7 @@ def build(filename, theme, art):
 
     for i, line in enumerate(art):
         if line.strip():
-            svg += '  <text x="30" y="%d" class="art">%s</text>\n' % (30 + 20 * i, escape(line))
+            svg += '  <text x="%d" y="%d" class="art">%s</text>\n' % (ART_X, 30 + 20 * i, escape(line))
 
     for i, line in enumerate(right_lines()):
         svg += '  %s\n' % place(line, 30 + 20 * i)
