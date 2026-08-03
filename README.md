@@ -15,8 +15,15 @@ local mani = {
   x = "https://x.com/devxMani",
 }
 ``` -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
-  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg">
+<!-- <picture>
+  <!-- <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg"> --> -->
+  
+  <p align="center">
+  <img src="./assets/arch.png" width="100%" alt="Profile Banner"/>
+</p>
+  
+
+  
   <img alt="devxMani's GitHub Stats" src="dark_mode.svg">
-</picture>
+<!-- </picture> -->
