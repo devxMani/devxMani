@@ -35,7 +35,7 @@
   <text x="560" y="98" class="right">. <tspan class="key">Role</tspan>: ................................. <tspan class="value">Software Developer</tspan></text>
   <text x="560" y="126" class="right">. <tspan class="key">Host</tspan>: ........................................... <tspan class="value">devxMani</tspan></text>
   <text x="560" y="154" class="right">. <tspan class="key">Location</tspan>: ....................................... <tspan class="value">Milkyway</tspan></text>
-  <text x="560" y="182" class="right">. <tspan class="key">Uptime</tspan>:<tspan id="age_data_dots"> ....................... </tspan><tspan id="age_data">3 years, 6 months, 28 days</tspan></text>
+  <text x="560" y="182" class="right">. <tspan class="key">Uptime</tspan>:<tspan id="age_data_dots"> ....................... </tspan><tspan id="age_data">3 years, 6 months, 29 days</tspan></text>
   <text x="560" y="210" class="right">. <tspan class="key">Focus</tspan>: ...................................... <tspan class="value">Intelligence</tspan></text>
   <text x="560" y="238" class="right">. </text>
   <text x="560" y="266" class="right">. <tspan class="key">Languages</tspan>: ................. <tspan class="value">Python, TypeScript, Rust, C++</tspan></text>
